@@ -2,7 +2,7 @@
     include 'db.php';
     session_start();
     if(!$_SESSION["logedin"]){
-      header('Location: ./login.php');
+      header('Location: ./login.php');//hello
     }
 
     $level = $_GET['level']; 
