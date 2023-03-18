@@ -1,0 +1,66 @@
+body {
+    margin: 0
+}
+input[type="submit"] {
+    
+    cursor: pointer;
+}
+div {
+    box-sizing: border-box;
+}
+.quiz_container {
+    background-color: lightpink;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.quiz_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 1rem;
+    width: 600px;
+}
+
+.quiz_section{
+    background-color: white;
+    width: 100%;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+}
+.quiz_section span {
+    display: inline-block;
+    font-weight: 600;
+    margin: 0.5rem 0;
+
+}
+.quiz_radio_wrapper{
+    padding: 8px 8px 8px 0;
+}
+
+.quiz_actions {
+    display: flex;
+    justify-content: space-between;
+}
+.quiz_actions > button {
+    width: 100px;
+    padding: 0.7rem 0;
+    background-color: 5D7B89;
+    border: none;
+    border-radius: 5px;
+}
+
+/* admin add quiz */
+
+.addQuizAns {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 5px;
+
+}
+.addQuizAns > input, .quiz_section > input {
+    border: none;
+    background-color: #eee;
+    padding: 10px 0.5rem;
+}
