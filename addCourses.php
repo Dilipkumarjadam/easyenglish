@@ -15,7 +15,7 @@ if (isset($_POST["video"])) {
   $query = "INSERT INTO `course`(`image`, `video`, `level`, `title`, `description`) VALUES ('$image', '$video', '$level', '$title', '$description')";
 
     if (mysqli_query($conn, $query)) {
-        $error = "Cource added successfully";
+        $error = "Course added successfully";
     } else {
         $error = "Failed to register: " . mysqli_error($conn);
     }

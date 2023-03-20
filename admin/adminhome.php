@@ -1,7 +1,7 @@
 <?php
   session_start();
   if(!$_SESSION["isAdmin"]){
-    header('Location: ../index.html');
+    header('Location: ../adminhome.php');
   }
 
 ?>
@@ -20,10 +20,10 @@
 <body>
 	
 	<div id="mySidenav" class="sidenav">
-	<p class="logo"><span>M</span>-SoftTech</p>
+	<p class="logo"><span>EASY</span> ENGLISH</p>
   <a href="#" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Dashboard</a>
   <a href="#"class="icon-a"><i class="fa fa-users icons"></i> &nbsp;&nbsp;Users</a>
-  <a href="#"class="icon-a"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Courses</a>
+  <a href="../addCourses.php"class="icon-a"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Add Courses</a>
   <a href="#"class="icon-a"><i class="fa fa-tasks icons"></i> &nbsp;&nbsp;Quiz</a>
 </div>
 <div id="main">
@@ -37,7 +37,7 @@
 	<div class="col-div-6">
 	<div class="profile">
 
-		<p>ADMIN <span>UI / UX DESIGNER</span></p>
+		<p>ADMIN <span></span></p>
 	</div>
 </div>
 	<div class="clearfix"></div>

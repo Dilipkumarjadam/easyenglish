@@ -30,8 +30,15 @@ body{
     background-color: black;
 }
 .logo{
-    width: 100px;
-    cursor: pointer;
+    font-weight: bolder;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    color: white;
+    font-size: 27;
+}
+.logo span{
+	color: #4ad437;
 }
 .navbar ul li{
     list-style: none;

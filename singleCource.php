@@ -35,7 +35,7 @@
                 $description = $row["description"];?>
 
             <div class="levels_box_vid">
-                <iframe width="975" height="560" src="https://www.youtube.com/embed/<?php echo  $video?>" title="<?php echo  $title?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="1000" height="500" src="https://www.youtube.com/embed/<?php echo  $video?>" title="<?php echo  $title?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <div>
                     <h1><?php echo  $title?></h1>
                     <p><?php echo  $title?></p>

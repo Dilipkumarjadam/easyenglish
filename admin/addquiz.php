@@ -1,7 +1,7 @@
 <?php
     session_start();
     if(!$_SESSION["isAdmin"]){
-      header('Location: ../index.html');
+      header('Location: ../login.php');
     }
     include '../db.php';
 

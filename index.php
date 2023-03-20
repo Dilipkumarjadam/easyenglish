@@ -32,7 +32,7 @@
             <div class="info_section">
                  <div class="container">
                     <h1>Welcome to Easy English</h1>
-                    <p>Learn English online and improve your skills through our high-quality courses and resources – all designed for adult language learners. Everything you find here has been specially created by the Easy English, the world's English teaching experts.</p>
+                    <p>Learn English online and improve your skills through our high-quality courses and resources  all designed for adult language learners. Everything you find here has been specially created by the Easy English, the world's English teaching experts.</p>
                 </div>
             </div> 
         <div class="levels" id="course">
@@ -42,7 +42,7 @@
                     <h1>BASIC</h1>
                     <p>In this course will teach you Article,Conjuction,Noun,Preposition and Descriptive with some animated stories.</p>
                     <div class="btn_wrapper">
-                        <a href="course1.php?level=basic">
+                        <a href="courses.php?level=basic">
                              <button>Find out more</button>
                         </a>
                     </div>
@@ -54,7 +54,7 @@
                     <h1>INTERMEDIATE</h1>
                     <p>In this course will teach you Adjective,Intensifiers,Degree,<br>Metaphors,Shakespear's influence,Interjection.</p>
                     <div class="btn_wrapper">
-                    <a href="course1.php?level=intermediate">
+                    <a href="courses.php?level=intermediate">
                         <button>Find out more</button>
                     </a>    
                     </div>
@@ -66,7 +66,7 @@
                     <h1>ADVANCED</h1>
                     <p>In this course will teach you Advanced - Adjective,Verbs,Adverbs,Phrases and many more.</p>
                     <div class="btn_wrapper">
-                    <a href="course1.php?level=advanced">
+                    <a href="courses.php?level=advanced">
                         <button>Find out more</button>
                     </a>
                     </div>

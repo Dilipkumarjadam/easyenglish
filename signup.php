@@ -12,7 +12,7 @@ if (isset($_POST["name"])) {
   $query = "INSERT INTO users (`name`, `email`, `pass`) VALUES ('$name','$email','$pass')";
 
     if (mysqli_query($conn, $query)) {
-        header('Location: index.html');
+        header('Location: index.php');
         exit();
     } else {
         $error = "Failed to register: " . mysqli_error($conn);
