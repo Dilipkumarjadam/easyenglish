@@ -101,7 +101,9 @@
                 </div>
            </div>
            <div class="free_btn">
+           <a href="skill.php">
                <button>Find out more</button>
+            </a>
            </div>
         </div>
         <div class="footer" id="contact">
