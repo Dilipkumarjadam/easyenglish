@@ -8,7 +8,7 @@
 .single_skill {
     flex: 1;
     height: 100vh;
-    height: 100dvh;
+    width: 100vw;
     gap: 1rem;
 }
 .single_skill > img {
@@ -16,4 +16,27 @@
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+.grammar{
+    width: 100vw;
+    max-width: 99%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #23085a;
+    color: #efecf3;
+}
+.grammar > h1 {
+    color: #efecf3;
+}
+.btn_wrapper {
+    display: flex;
+    justify-content: center;
+}
+.btn_wrapper button:hover {
+    background-color: #5deb4b;
+    transition: 0.5s;
+    border-color: #5deb4b;
+    color: #23085a;
+    transform: scale(1.1);
 }

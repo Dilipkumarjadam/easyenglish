@@ -318,7 +318,6 @@ body{
     
 }
 .footer {
-    box-sizing: border-box;
     width: 100vw;
     padding: 20px;
     background-color: rgb(0, 0, 0);
@@ -326,7 +325,6 @@ body{
     gap:400px;
 }
 .footer_info{
-    box-sizing: border-box;
     width: 300px;
 }
 .footer_info h1{
@@ -380,6 +378,7 @@ body{
     width: 200px;
 
 }
+
 
 
 
