@@ -24,7 +24,7 @@
   <a href="#" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Dashboard</a>
   <a href="#"class="icon-a"><i class="fa fa-users icons"></i> &nbsp;&nbsp;Users</a>
   <a href="../addCourses.php"class="icon-a"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Add Courses</a>
-  <a href="#"class="icon-a"><i class="fa fa-tasks icons"></i> &nbsp;&nbsp;Quiz</a>
+  <a href="addquiz.php"class="icon-a"><i class="fa fa-tasks icons"></i> &nbsp;&nbsp;Add Quiz</a>
 </div>
 <div id="main">
 
@@ -62,7 +62,9 @@
 	</div>
 	<div class="col-div-3">
 		<div class="box">
-			<p><br/><span>Quiz</span></p>
+		<a href="./addquiz.php">
+			<p><br/><span>Add Quiz</span></p>
+		</a>
 			<i class="fa fa-tasks box-icon"></i>
 		</div>
 	</div>

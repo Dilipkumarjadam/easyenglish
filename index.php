@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="levels_box">
-                <img src="./images/intermediate.jpg" alt="">
+                <img src="./images/man.jpg" alt="">
                 <div>
                     <h1>INTERMEDIATE</h1>
                     <p>In this course will teach you Adjective,Intensifiers,Degree,<br>Metaphors,Shakespear's influence,Interjection.</p>
@@ -75,7 +75,7 @@
             <div class="test" id="levels">
                 <div class="test_box">
                     <h2>Discover your English level by<br>taking our free online English <br>test </h2>
-                      <a href="quiz/quiz.php">
+                    <a href="quiz/quiz.php">
                         <button class="test_box_btn">Discover your level</button>
                       </a>
                 </div>

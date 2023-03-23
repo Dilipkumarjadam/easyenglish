@@ -14,8 +14,8 @@
         $diffLevel = $_POST["level"];
         $numberofQuestions = $_POST["numberofquestion"];
 
-        $level = "advance";
-        $addQuizQ = "INSERT INTO `quiz`(`diffLevel`, `title`) VALUES ('$level','$title')";
+    
+        $addQuizQ = "INSERT INTO `quiz`(`diffLevel`, `title`) VALUES ('$diffLevel','$title')";
         
         $addQuizRes = mysqli_query($conn, $addQuizQ);
         if(!$addQuizRes){
@@ -47,7 +47,13 @@
                     <form action="#"  method="POST">
                         <div class="quiz_radio_wrapper addQuizAns">
                             <input name="title" type="text" placeholder="Quiz title">
-                            <input name="level" type="text" placeholder="Dificulty Level">  
+                            <select name="level" >
+                                <option value="basic">basic</option>
+                                <option value="intermediate">intermediate</option>
+                                <option value="Advance">Advance</option>
+                                
+                            </select>
+                             
                             <input name="numberofquestion" type="text" placeholder="Number of Questions">
                             <input name="addquiz" type="submit">
                         </div>
