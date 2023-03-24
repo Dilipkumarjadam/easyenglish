@@ -26,7 +26,9 @@
             <div class="box">
                 <h2>Easy English online : 100% free course</h2>
                 <p>We provide you best english knowledge to improve your soft skills like reading, speaking, and listening  </p>
-                <button class="section_box_btn">learn and save now!</button>
+                <a href="aboutus.php">
+                    <button class="section_box_btn">About us</button>
+                </a>
             </div>
         </div>
             <div class="info_section">

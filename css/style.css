@@ -21,8 +21,8 @@ body{
     background-position: center;
 }
 .navbar{
-    position: sticky;
-    top: 100px;
+    position: fixed;
+    top: 0px;
     box-sizing: border-box;
     width: 100%;
     margin: auto;
@@ -41,7 +41,7 @@ body{
     font-size: 27;
 }
 .logo span{
-	color: #4ad437;
+	color:  #1eff00;
 }
 .navbar ul li{
     list-style: none;
@@ -59,7 +59,7 @@ body{
     content: '';
     height: 3px;
     width: 0%;
-    background: #5deb4b;
+    background:  #1eff00;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -92,7 +92,7 @@ body{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #5deb4b;
+    border: 2px solid  #1eff00;
     background: transparent;
     color: #fff;
     cursor: pointer;
@@ -101,7 +101,7 @@ body{
 }
 
 .effect_btn_span{
-    background: #4ad437;
+    background:  #1eff00;
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -153,9 +153,13 @@ body{
     width: 190px;
     border: none;
     transition: 0.5s;
+    font-size: 15px;
 
 }
 .section_box_btn:hover {   
+    background-color: #1eff00;
+    color: #23085a;
+    font-size: 20px;
     transform: scale(1.1);
    
 }
@@ -216,6 +220,7 @@ body{
     border-radius: 2vmax;
     height: 45px;
     width: 200px;
+    font-size: 15px;
 
 }
 .btn_wrapper {
@@ -223,11 +228,12 @@ body{
     justify-content: center;
 }
 .btn_wrapper button:hover {
-    background-color: #5deb4b;
+    background-color:#1eff00;
     transition: 0.5s;
-    border-color: #5deb4b;
+    border-color: #1eff00;
     color: #23085a;
     transform: scale(1.1);
+    font-size: 17px;
 }
 .test {
     background-image: url("../images/green.jpg") ;
@@ -261,12 +267,14 @@ body{
     width: 190px;
     border: none;
     transition: all 0.5s ease-in-out;
+    font-size: 15px;
 
 }
 .test_box_btn:hover {
-    background-color: #5deb4b;
+    background-color: #1eff00;
     color: #23085a;
     transform: scale(1.1);
+    font-size: 17px;
 }
 .free {
     width: 100vw;
@@ -303,13 +311,15 @@ body{
     padding: 10px 20px;
     border-radius: 20px;
     width: 250px;
-    background-color: #5deb4b;
+    background-color: #1eff00;
     transition: all 0.5s ease-in-out;
     border: none;
-    
+    font-size: 15px;
+        
 }
 .free_btn button:hover {   
     transform: scale(1.1);
+    font-size: 17px;
    
 }
 .free_btn  {
@@ -329,7 +339,7 @@ body{
 }
 .footer_info h1{
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 10px;
     color: #fff;
 }
 .footer_info p{
@@ -343,7 +353,7 @@ body{
 }
 .footer_social h1{
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 10px;
     color: #fff;
 }
 .footer_social img {
@@ -376,6 +386,7 @@ body{
     border-radius: 2vmax;
     height: 45px;
     width: 200px;
+    font-size: 15px;
 
 }
 
