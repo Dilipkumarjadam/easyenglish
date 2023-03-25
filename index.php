@@ -77,7 +77,7 @@
             <div class="test" id="levels">
                 <div class="test_box">
                     <h2>Discover your English level by<br>taking our free online English <br>test </h2>
-                    <a href="quiz/quiz.php">
+                    <a href="./quiz/quiz.php?set=1">
                         <button class="test_box_btn">Discover your level</button>
                       </a>
                 </div>

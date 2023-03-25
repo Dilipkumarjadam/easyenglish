@@ -9,7 +9,7 @@
     <?php include('shared/navbar.html'); ?>
     <div class="skills">
         <div class="single_skill">
-            <img src="./images/skill.jpg" alt="photo" />
+            <img src="./images/skill.png" alt="photo" />
         </div>
         <div class="grammar">
         <h2>SKILLS</h2>

@@ -7,10 +7,7 @@
     if(!isset($_SESSION["logedin"])){
         header("location: ../login.php");
     }
-    if(!htmlspecialchars($_GET["set"])){
-        header("location: ../index.php");
-    }
-
+ 
     //fetching questions
     $set = htmlspecialchars($_GET["set"]);
     $q = "SELECT * FROM questions WHERE quiz_id = '$set'";

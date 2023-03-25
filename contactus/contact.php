@@ -41,7 +41,8 @@
               <input class="app-form-control" placeholder="NAME" value=" EASY ENGLISH ">
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="EMAIL">
+              <input name="email" type="email" class="app-form-control" placeholder="EMAIL" id="email" required>
+              <!-- <input name="name" type="text" class="input" placeholder="Name" id="name" required> -->
             </div>
             <div class="app-form-group">
               <input class="app-form-control" placeholder="CONTACT NO">

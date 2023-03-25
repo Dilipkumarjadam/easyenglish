@@ -35,7 +35,7 @@
                 $title = $row["title"];
                 $description = $row["description"];?>
                 <div class="levels_box">
-                    <img src="<?php echo $img ?>" alt="">
+                    <img src="<?php echo $img ?>">
                     <div>
                         <h1><?php echo $title ?></h1>
                         <p><?php echo $description ?></p>

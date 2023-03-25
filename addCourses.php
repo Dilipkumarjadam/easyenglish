@@ -22,6 +22,53 @@ if (isset($_POST["video"])) {
     }
 ?>
 
+<?php
+/*
+include('mydb.php');
+if (isset($_POST['submit']))
+{
+        $PName=$_POST['PName'];
+        $Rate=$_POST['Rate'];
+        $carat = $_POST['carat'];
+        $file = $_FILES['fileToUpload'];
+
+        //print_r($file);
+        $filename = $file['name'];
+        $filepath = $file['tmp_name'];
+        $fileerror = $file['error'];
+
+        if($fileerror==0)
+        {
+                $destfile = 'uploaded Images/'.$filename;
+                //echo "$destfile";
+                move_uploaded_file($filepath, $destfile);
+                
+                $insertquery = "INSERT INTO admin(PName,Rate,carat,fileToUpload) values('$PName','$Rate','$carat','$destfile') ";
+
+                $query = mysqli_query($conn,$insertquery);
+
+                if ($query)
+                 {
+                        $_SESSION['status'] = "Inserted.";
+                        header("Location:Admin.php");
+                } 
+                else
+                 {
+                        $_SESSION['status'] = "Not Inserted.";
+                        header("Location:Admin.php");
+                }
+        }
+
+}
+else
+{
+        echo "No button has been clicked.";
+}
+/*$img_loc=$_FILES['fileToUpload']['tmp_name'];
+        $img_name = $_FILES['fileToUpload']['name'];
+        move_uploaded_file($img_loc, "uploaded Images/.$img_name");*/
+?>
+
 
 <html>
     <head>
@@ -35,7 +82,7 @@ if (isset($_POST["video"])) {
                 
                 <header>ADD COURSES</header>
 
-            <div class="input-field" >
+            <div class="" >
                 <input name="image" type="url" class="input" placeholder="image" id="image" required>
             </div>
             <div class="input-field" >
