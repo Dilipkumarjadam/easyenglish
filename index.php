@@ -77,7 +77,7 @@
             <div class="test" id="levels">
                 <div class="test_box">
                     <h2>Discover your English level by<br>taking our free online English <br>test </h2>
-                    <a href="./quiz/quiz.php?set=1">
+                    <a href="./quiz.php?set=1">
                         <button class="test_box_btn">Discover your level</button>
                       </a>
                 </div>
@@ -111,7 +111,7 @@
         <div class="footer" id="contact">
             <div class="footer_info">
                 <h1>CONTACT US</h1>
-                <p>If you have a question about the Easy English, fill out our <a href="contactus/contact.php">Contact Form</a> , and we will get back to you asap.</p>
+                <p>If you have a question about the Easy English, fill out our <a href="contact.php">Contact Form</a> , and we will get back to you asap.</p>
             </div>
             <div class="footer_social">
                 <h1>FOLLOW US</h1>

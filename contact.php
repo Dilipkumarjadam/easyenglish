@@ -1,15 +1,38 @@
 <?php
-    include '../db.php';
+    include 'db.php';
 
     session_start();
     if(!isset($_SESSION["logedin"])){
         header("location: ../login.php");
     }
   ?>
+  <?php
+	
+
+	if (isset($_POST['post_comment'])) {
+
+		$email = $_POST['email'];
+    $number = $_POST['number'];
+		$message = $_POST['message'];
+		
+		$sql = "INSERT INTO contactus (email, number, message)
+		VALUES ('$email','$number', '$message')";
+
+		if ($conn->query($sql) === TRUE) {
+		  echo "";
+		} else {
+		  echo "Error: " . $sql . "<br>" . $conn->error;
+		}
+	}
+
+?>
+
+</body>
+</html>
 <html>
     <head>
-        <title>EE</title>
-        <link rel="stylesheet" href="./contact.css">
+        <title>contactus</title>
+        <link rel="stylesheet" href="css/contact.css">
     </head>
 
 <div class="background">
@@ -38,21 +61,22 @@
         <div class="screen-body-item">
           <div class="app-form">
             <div class="app-form-group">
+            <form action="" method="post" class="form">
               <input class="app-form-control" placeholder="NAME" value=" EASY ENGLISH ">
             </div>
             <div class="app-form-group">
               <input name="email" type="email" class="app-form-control" placeholder="EMAIL" id="email" required>
-              <!-- <input name="name" type="text" class="input" placeholder="Name" id="name" required> -->
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="CONTACT NO">
+              <input name="number" type="tel" class="app-form-control" placeholder="CONTACT NO" required>
             </div>
             <div class="app-form-group message">
-              <input class="app-form-control" placeholder="MESSAGE">
+            <textarea name="message" cols="20" rows="5" class="app-form-control" placeholder="Message"></textarea>
             </div>
             <div class="app-form-group buttons">
-              <button class="app-form-button">CANCEL</button>
-              <button class="app-form-button">SEND</button>
+              <!-- <button class="app-form-button">CANCEL</button> -->
+              <button type="submit" class="app-form-button" name="post_comment">SEND</button>
+            </form>
             </div>
           </div>
         </div>

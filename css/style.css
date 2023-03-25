@@ -21,7 +21,7 @@ body{
     background-position: center;
 }
 .navbar{
-    position: fixed;
+    position: static;
     top: 0px;
     box-sizing: border-box;
     width: 100%;

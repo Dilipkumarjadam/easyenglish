@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+	background: #23085a;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	background: #fbff00;
+	border-radius: 30px;
+	width: 1200px;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 30px;
+}
+
+.wrapper .form input {
+	background: #23085a;
+	color: #fbff00;
+	font-size: 15px;
+	height: 50px;
+	width: 650px;
+	border-radius: 2vmax;
+	padding: 10px;
+	border: none;
+	outline: none;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+.wrapper .form textarea {
+	background: #23085a;
+	color: #fbff00;
+	font-size: 15px;
+	width: 650px;
+	height: 275px;
+	border-radius: 20px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	resize: none;
+	margin-top: 10px;
+}
+.wrapper_h1 > h1 {
+    color: #23085a;
+    text-align: center;
+    font-size: 50px;
+	font-weight: 10000;
+    font-style:initial;
+}
+
+.wrapper .form .btn {
+	
+	background-color: #23085a;
+	color: white;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 10px;
+	height: 45px;
+    width: 250px;
+	border-radius: 2vmax;
+	margin: 0 auto;
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	transition: ease-in-out;
+}
+
+.wrapper .form .btn:hover {
+	background-color:#1eff00;
+    transition: 0.5s;
+    border-color: #1eff00;
+    color: #23085a;
+    transform: scale(1.1);
+    font-size: 17px
+}
+
+.content {
+	text-align: center;
+	background: #fbff00;
+	color: #23085a;
+	padding: 10px;
+	width: 500px;
+	height: 500px;
+	border-radius: 10px;
+}
+
+.content p {
+	margin-bottom: 15px;
+	width: 450px;
+}

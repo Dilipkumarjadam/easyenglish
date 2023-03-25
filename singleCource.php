@@ -38,16 +38,16 @@
                 <iframe width="1000" height="500" src="https://www.youtube.com/embed/<?php echo  $video?>" title="<?php echo  $title?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <div>
                     <h1><?php echo  $title?></h1>
-                    <p><?php echo  $title?></p>
-                    <div>
-                        <a href="images/article.pdf"><button>Download pdf NOW!</button></a>
+                    <p><?php echo  $description?></p>
+                    <div class="btn_wrapper">
+                        <a href="images/article.pdf"><button>Download Notes</button></a>
                     </div>
-                </div>
-            
+                </div> 
             </div>
         <?php
         }?>
-       
     </div>
+    <?php include('comment.php'); ?>
 </body>
 </html>
+
