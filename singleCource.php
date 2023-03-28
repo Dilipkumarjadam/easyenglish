@@ -40,7 +40,7 @@
                     <h1><?php echo  $title?></h1>
                     <p><?php echo  $description?></p>
                     <div class="btn_wrapper">
-                        <a href="images/article.pdf"><button>Download Notes</button></a>
+                        <a href="notes.php"><button>Download Notes</button></a>
                     </div>
                 </div> 
             </div>

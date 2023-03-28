@@ -1,0 +1,75 @@
+.display_notes{
+    background-color: #23085a;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+.display_notes_name > h1{
+    text-align:start;
+    color: #fbff00;
+    font-style: italic;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.display_notes_name > p{
+    text-align:start;
+    color: #fbff00;
+    font-style: italic;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.display_notes_btn {
+    color: #23085a;
+    background-color: #fbff00;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 190px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    font-size: 16px;
+    margin-left: 800px;
+    margin-bottom: 10px;
+
+}
+.display_notes_btn:hover {
+    background-color: #1eff00;
+    color: #23085a;
+    font-size: 18px;
+}
+
+
+
+
+
+/* ---------------------------------------------Admin side add notes--------------------------------------- */
+.add_notes {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23085a;
+}
+
+.add_notes-name{
+    width: 800px;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.add_notes_name > h1 {
+    color: #fbff00;
+    text-align: center;
+    font-weight: 5000;
+    margin-top: 0px;
+}
+.add_notes_name > p {
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 90px;
+    color: #fbff00;
+    font-size: 25px;
+}

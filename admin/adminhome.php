@@ -25,6 +25,7 @@
   <a href="../showcontact.php"class="icon-a"><i class="fa fa-users icons"></i> &nbsp;&nbsp;Contact User</a>
   <a href="../addCourses.php"class="icon-a"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Add Courses</a>
   <a href="addquiz.php"class="icon-a"><i class="fa fa-tasks icons"></i> &nbsp;&nbsp;Add Quiz</a>
+  <a href="../addnotes.php"class="icon-a"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Add Notes</a>
 </div>
 <div id="main">
 
@@ -64,12 +65,21 @@
 	</div>
 	<div class="col-div-3">
 		<div class="box">
+    <a href="../addnotes.php">
+			<p><br/><span>Add Notes</span></p>
+			<i class="fa fa-list box-icon"></i>
+			</a>
+		</div>
+</div>
+<div  class="col-div-3">
+		<div class="box">
 		<a href="./addquiz.php">
 			<p><br/><span>Add Quiz</span></p>
 			<i class="fa fa-tasks box-icon"></i>
 			</a>
 		</div>
 	</div>
+	
   
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
