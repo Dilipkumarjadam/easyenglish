@@ -14,10 +14,18 @@
     <input type="file" name="file">
     <input type="submit" value="ADD">
 </form>
+<div class="add_notes_name">
+        <h1>SHOW NOTES</h1>
+        <p>Here an admin or teacher can uploaded notes or pdfs by user, by clicking on show notes you can see and download notes and verify it, and if it is relevant to learners or english than you can add or upload it for other learners to download.</p>
+<a href="user_notes.php">
+    <button class="user_addnotes_btn">Show Notes</button>
+</a>
 </div>
 </body>
 </html>
+
 <?php
+
 
 // Getting uploaded file
 $file = $_FILES["file"];

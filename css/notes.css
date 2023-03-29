@@ -5,6 +5,12 @@
     flex-direction: column;
    
 }
+.user_addnotes{
+    background-color: #fbff00;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 .display_notes_name > h1{
     text-align:start;
     color: #fbff00;
@@ -18,6 +24,23 @@
     font-style: italic;
     margin-left: 100px;
     margin-top: 10px;
+    font-size: 20px;
+}
+.user_addnotes_name > h1{
+    text-align:center;
+    color: #23085a;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 50px;
+}
+.user_addnotes_name > p{
+    text-align:start;
+    color: #23085a;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .display_notes_btn {
@@ -34,42 +57,62 @@
 
 }
 .display_notes_btn:hover {
-    background-color: #1eff00;
-    color: #23085a;
+    background-color: black;
+    color: #fbff00;
+    font-size: 18px;
+}
+
+.user_addnotes_btn {
+    color: #fbff00;
+    background-color: #23085a;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 190px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    font-size: 16px;
+    margin-left: 450px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.user_addnotes_btn:hover {
+    background-color: #ff0037;
+    color: white    ;
     font-size: 18px;
 }
 
 
 
 
-
 /* ---------------------------------------------Admin side add notes--------------------------------------- */
 .add_notes {
-    height: 100vh;
-    width: 100vw;
+    height: 600px;
+    width: 1070px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #23085a;
+    background-color: #ffe600;
+    border-radius: 30px;
 }
 
-.add_notes-name{
+.add_notes_name{
     width: 800px;
-  
     display: flex;
     flex-direction: column;
-    gap: 10px;
+ 
 }
 .add_notes_name > h1 {
-    color: #fbff00;
+    color: #23085a;
     text-align: center;
-    font-weight: 5000;
-    margin-top: 0px;
+    font-weight: 800;
+    margin-top: 10px;
 }
 .add_notes_name > p {
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 90px;
-    color: #fbff00;
+    color: #23085a;
     font-size: 25px;
+    font-weight: 800px;
 }
