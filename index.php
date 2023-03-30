@@ -21,7 +21,7 @@
                 
             </div>
             
-        </div>
+        </div>          
         <div class="section">
             <div class="box">
                 <h2>Easy English online : 100% free course</h2>

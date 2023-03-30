@@ -28,6 +28,7 @@
 </head>
 <body>
 <div class="content">
+<h1><?php echo'USERS COMMENTS :'; ?></h1>
 		<?php
 
 			$sql = "SELECT * FROM comment";

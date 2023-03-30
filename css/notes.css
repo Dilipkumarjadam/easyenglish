@@ -92,10 +92,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffe600;
+    background-color: #23085a;
     border-radius: 30px;
 }
-
 .add_notes_name{
     width: 800px;
     display: flex;
@@ -103,7 +102,7 @@
  
 }
 .add_notes_name > h1 {
-    color: #23085a;
+    color: #ffe600;
     text-align: center;
     font-weight: 800;
     margin-top: 10px;
@@ -112,7 +111,7 @@
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 90px;
-    color: #23085a;
+    color: #ffe600;
     font-size: 25px;
     font-weight: 800px;
 }
