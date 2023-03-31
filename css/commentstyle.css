@@ -89,7 +89,6 @@ body {
 .content {
 	text-align: center;
 	background: black;
-
 	padding: 10px;
 	width: 900px;
 	height: 500px;
@@ -105,6 +104,7 @@ body {
 .content h3 {
 	font-weight: 800;
 	font-size: 30px;
+	color: white;
 
 }
 .content h2 {
@@ -120,4 +120,37 @@ body {
 	text-align: left;
 	margin-top: 10px;
 	color: #fbff00;
+}
+.table{
+    height: 30vh;
+    width: 800px;
+    padding-left: 20px;
+    padding-top: 10px;
+	align-items: center;
+	background-color: #fbff00;
+	border-radius: 10px;
+}
+th{
+    border: 2px solid #23085a;
+}
+td{
+	border: 2px solid #23085a;
+}
+.contac {
+	text-align: center;
+	background: #fbff00;
+	padding: 10px;
+	width: 900px;
+	height: 500px;
+	border-radius: 10px;
+	margin-top: 1500px;
+}
+
+.contact h3 {
+	font-weight: 800;
+	font-size: 30px;
+	color: #fbff00;
+	margin-top: 30px;
+	margin-left: 10px;
+
 }

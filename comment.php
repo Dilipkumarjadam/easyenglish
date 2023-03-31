@@ -4,11 +4,11 @@
 
 	if (isset($_POST['post_comment'])) {
 
-		$name = $_POST['name'];
-		$message = $_POST['message'];
+		$y_name = $_POST['y_name'];
+		$y_message = $_POST['y_message'];
 		
-		$sql = "INSERT INTO comment (name, message)
-		VALUES ('$name', '$message')";
+		$sql = "INSERT INTO comment (y_name, y_message)
+		VALUES ('$y_name', '$y_message')";
 
 		if ($conn->query($sql) === TRUE) {
 		  echo "";
@@ -17,6 +17,7 @@
 		}
 	}
 
+	
 ?>
 
 <!DOCTYPE html>
@@ -32,9 +33,9 @@
 		<form action="" method="post" class="form">
 		<div class="wrapper_h1">
 		<h1>COMMENTS</h1>
-			<input type="text" class="name" name="name" placeholder="Name">
+			<input type="text" class="name" name="y_name" placeholder="Name">
 			<br>
-			<textarea name="message" cols="30" rows="10" class="message" placeholder="Message"></textarea>
+			<textarea name="y_message" cols="30" rows="10" class="message" placeholder="Message"></textarea>
 			<br>
 			<button type="submit" class="btn" name="post_comment">Post Comment</button>
 		</form>

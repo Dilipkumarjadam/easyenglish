@@ -1,22 +1,6 @@
 <?php
 	
 	include 'db.php';
-
-	if (isset($_POST['post_comment'])) {
-
-		$name = $_POST['name'];
-		$message = $_POST['message'];
-		
-		$sql = "INSERT INTO comment (name, message)
-		VALUES ('$name', '$message')";
-
-		if ($conn->query($sql) === TRUE) {
-		  echo "";
-		} else {
-		  echo "Error: " . $sql . "<br>" . $conn->error;
-		}
-	}
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,7 +11,7 @@
 	<title>showcontact</title>
 </head>
 <body>
-<div class="content">
+<div class="contact">
 		<?php
 
 			$sql = "SELECT * FROM contactus";
@@ -38,9 +22,9 @@
 			  while($row = $result->fetch_assoc()) {
 			   
 		?>
-		<h3><?php echo $row['email']; ?></h3>
-        <h3><?php echo $row['number']; ?></h3>
-		<h3><p><?php echo $row['message']; ?></p></h3>
+		<h3><?php echo $row['email']; ?>
+       <?php echo $row['y_number']; ?>
+		<p><?php echo $row['y_message']; ?></p></h3>
 
 		<?php } } ?>
 	</div>

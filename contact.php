@@ -12,11 +12,11 @@
 	if (isset($_POST['post_comment'])) {
 
 		$email = $_POST['email'];
-    $number = $_POST['number'];
-		$message = $_POST['message'];
+    $y_number = $_POST['y_number'];
+		$y_message = $_POST['y_message'];
 		
-		$sql = "INSERT INTO contactus (email, number, message)
-		VALUES ('$email','$number', '$message')";
+		$sql = "INSERT INTO contactus (email, y_number,y_message)
+		VALUES ('$email','$y_number', '$y_message')";
 
 		if ($conn->query($sql) === TRUE) {
 		  echo "";
@@ -68,10 +68,10 @@
               <input name="email" type="email" class="app-form-control" placeholder="EMAIL" id="email" required>
             </div>
             <div class="app-form-group">
-              <input name="number" type="tel" class="app-form-control" placeholder="CONTACT NO" required>
+              <input name="y_number" type="tel" class="app-form-control" placeholder="CONTACT NO" required>
             </div>
             <div class="app-form-group message">
-            <textarea name="message" cols="20" rows="5" class="app-form-control" placeholder="Message"></textarea>
+            <textarea name="y_message" cols="20" rows="5" class="app-form-control" placeholder="Message"></textarea>
             </div>
             <div class="app-form-group buttons">
               <!-- <button class="app-form-button">CANCEL</button> -->
