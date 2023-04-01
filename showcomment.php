@@ -26,8 +26,3 @@ include 'db.php'
   echo "0 Result";
 }
 ?>
-  </div>
-</div>
-</div>
-</div>
-<?php
