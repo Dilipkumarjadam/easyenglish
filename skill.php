@@ -8,11 +8,13 @@
 <body>
     <?php include('shared/navbar.html'); ?>
     <div class="skills">
-        <div class="single_skill">
-            <img src="./images/skill.png" alt="photo" />
-        </div>
+      
         <div class="grammar">
-        <h2>SKILLS</h2>
+        <div class="banner_skill">
+            <div class="content_a">
+                 <h1>SKILLS</h1>
+            </div>
+        </div>
        <h1> Use these top tips to make your language richer:</h1>
 
 <h1>1.Find friends who want to speak in English:</h1> <p>If you are surrounded by English speaking people day after day, will it improve your spoken English? The answer is yes! That’s what an environment of English does. The more your exposure to the language, the more you will be able to absorb. If you find friends who want to learn English too, you will learn from each other. Soon, you will be looking for new sentence structures and vocabulary to convey your ideas. Look around for friends like you and ways to communicate in English to raise the level of your language. Say, for example, if you and a friend decide to work together on how to ask for directions, both of you will learn new vocabulary on how to ask for directions in English. More importantly, both of you will practice the language together and listen to each other speaking. This will be helpful as communication is a two-way process. You have to listen to the language and speak it. It will always be useful to practice both the parts together.</p>

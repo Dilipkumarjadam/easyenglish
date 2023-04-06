@@ -24,7 +24,7 @@
 			  // output data of each row
 			  while($row = $result->fetch_assoc()) {
 			   
-		
+		        echo '<tr>';
 				echo '<td>'. $row["email"].'</td>';
 				echo '<td>'. $row["y_number"].'</td>';
 				echo '<td>'.$row["y_message"].'</td>';

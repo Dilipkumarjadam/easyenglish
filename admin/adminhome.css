@@ -75,7 +75,8 @@ body{
     color: #8e8b8b;
 }
 .col-div-3{
-	width: 33%;
+  margin-top: 10px;
+	width: 43%;
 	float: left;
 }
 .box{

@@ -34,6 +34,7 @@
         <title>contactus</title>
         <link rel="stylesheet" href="css/contact.css">
     </head>
+    <?php include('shared/navbar.html'); ?>
 
 <div class="background">
   <div class="container">
@@ -68,7 +69,7 @@
               <input name="email" type="email" class="app-form-control" placeholder="EMAIL" id="email" required>
             </div>
             <div class="app-form-group">
-              <input name="y_number" type="tel" class="app-form-control" placeholder="CONTACT NO" required>
+              <input name="y_number" type="" class="app-form-control" placeholder="CONTACT NO" required>
             </div>
             <div class="app-form-group message">
             <textarea name="y_message" cols="20" rows="5" class="app-form-control" placeholder="Message"></textarea>

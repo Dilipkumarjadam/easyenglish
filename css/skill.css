@@ -65,3 +65,29 @@
     color: #23085a;
     transform: scale(1.1);
 }
+.banner_about{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.575)),url(../images/aboutus.png);
+    background-size: cover;
+    background-position: center;
+}
+.banner_skill{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.575)),url(../images/skill.png);
+    background-size: cover;
+    background-position: center;
+}
+.content_a{
+    width: 100%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:#fff;
+}
+.content_a h1{
+    font-size: 150px;
+    margin-top: 80px;
+}

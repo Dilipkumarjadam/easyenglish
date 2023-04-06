@@ -9,11 +9,12 @@
 </head>
 <body>
 <?php include('shared/navbar.html'); ?>
-<div class="grammar">
-<div class="single_skill">
-            <img src="./images/aboutus.png" alt="photo" />
+    <div class="grammar">
+        <div class="banner_about">
+            <div class="content_a">
+                 <h1>ABOUT US</h1>
+            </div>
         </div>
-<h2>ABOUT US</h2>
 <h1>WHO ARE WE?</h1>
 <p>
 The Easy English is a not-for-profit website in the india. We have been providing support to learners and teachers since 2023.
@@ -47,6 +48,7 @@ Our Easy English website can be a great solution for you if you seek a complete,
  <p> If you feel confident enough, GlobalExam also enables you to prepare and successfully pass various certifications.</p>
     <p> What are you waiting for? Hop on with us and let’s practice English together!</p> <br>                        
 </div>
+
 <div class="footer" id="contact">
                 <div class="footer_info">
                     <h1>CONTACT US</h1>
