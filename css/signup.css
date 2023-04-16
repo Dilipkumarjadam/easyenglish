@@ -9,6 +9,7 @@ body{
     background-attachment: fixed;
     background-color:black ;
 }
+
 .box{
     display: flex;
     justify-content: center;

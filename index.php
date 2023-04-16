@@ -11,11 +11,11 @@
                 <p>We Provide You Best Knowledge To improve Your English<br>as well as Communication Skill</p>
 
                 <div>
-                <a href="./signup.php">
-                    <button class="effect_btn" type="button"><span class="effect_btn_span"></span>SIGNUP NOW</button>
+                <a href="./logout.php">
+                    <button class="effect_btn" type="button"><span class="effect_btn_span"></span>LOGOUT</button>
                 </a>
                 <a href="./login.php">
-                        <button class="effect_btn" type="button"><span class="effect_btn_span"></span>LOGIN NOW</button>
+                        <button class="effect_btn" type="button"><span class="effect_btn_span"></span>LOGIN</button>
                 </a>
                 </div>
                 
