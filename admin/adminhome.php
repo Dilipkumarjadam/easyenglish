@@ -24,6 +24,7 @@
   <a href="adminhome.php" class="icon-a"><i class="fa fa-dashboard icons"></i> &nbsp;&nbsp;Dashboard</a>
   <a href="../showcontact.php"class="icon-a"><i class="fa fa-users icons"></i> &nbsp;&nbsp;Contact User</a>
   <a href="../addCourses.php"class="icon-a"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Add Courses</a>
+  <a href="./deletecourse.php"class="icon-a"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Delete Courses</a>
   <a href="../addnotes.php"class="icon-a"><i class="fa fa-list icons"></i> &nbsp;&nbsp;Add Notes</a>
 </div>
 <div id="main">
@@ -62,6 +63,15 @@
 			</a>
 		</div>
 	</div>
+	<div class="col-div-3">
+		<div class="box">
+    <a href="./deletecourse.php">
+			<p><br/><span>Delete Courses</span></p>
+			<i class="fa fa-list box-icon"></i>
+			</a>
+		</div>
+	</div>
+
 	<div class="col-div-3">
 		<div class="box">
     <a href="../addnotes.php">

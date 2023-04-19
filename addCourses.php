@@ -21,8 +21,6 @@ if (isset($_POST["video"])) {
     }
     }
 ?>
-
-
 <html>
     <head>
         <title>ADD COURSES</title>
