@@ -3,11 +3,11 @@ require("../db.php");
 
 if(isset($_POST["id"])){
     $id = $_POST["id"]; 
-    $q = "DELETE FROM `cource` WHERE id='$id' ";
+    $q = "DELETE FROM `course` WHERE id='$id' ";
     if(mysqli_query($conn, $q)){
         $message = "Cource with ID '$id' is successfully Deleted";
     } else {
-        $message = "Failed to Delete Cource with ID '$id' ";
+        $message = "Failed to Delete Course with ID '$id' ";
     }
 }
 
@@ -23,8 +23,8 @@ if(isset($_POST["id"])){
 </head>
 <body>
     <form method="POST" action="#">
-        <input name="id" placeholder="Enter  cource ID" />
-        <button>Delete</button>
+        <input name="id" placeholder="Enter course ID" />
+        <button class="glyphicon glyphicon-trash" aria-hidden="true">DELETE</button>
     </form>
     <?php if(isset($message)) {echo $message;} ?>
 </body>
@@ -45,9 +45,12 @@ if(isset($_POST["id"])){
 				echo '<table class="table">
 				<thead >
 				 <tr>
-				 <th scope="col">Level</th>
-				 <th scope="col">Title</th>
-				 <th scope="col">Id</th>
+				 <th scope="col">ID</th>
+				 <th scope="col">LEVEL</th>
+				 <th scope="col">TITLE</th>
+				 <th scope="col">VIDEO</th>
+				 <th scope="col">DESCRIPTION</th>
+				 <th scope="col">ACTION</th>
 				 </tr>
 				</thead>
 				<tbody>';
@@ -55,10 +58,17 @@ if(isset($_POST["id"])){
 			  while($row = $result->fetch_assoc()) {
 			   
 		        echo '<tr>';
+				echo '<td>'.$row["id"].'</td>';
 				echo '<td>'. $row["level"].'</td>';
 				echo '<td>'. $row["title"].'</td>';
-				echo '<td>'.$row["id"].'</td>';
-
+				echo '<td>'.$row["video"].'</td>';
+				echo '<td>'.$row["description"].'</td>';
+				echo '<td>';
+				echo '<form action="update.php" method="POST">';
+				echo '<input type="hidden" name="id" value='.$row["id"].'><button type="submit" class="" name="edit" value="Edit">EDIT<button>';
+				echo '</form>';
+				echo '</td>';
+				echo '</tr>';
 			  }
 		 echo '</tbody>
  </table>';
