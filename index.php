@@ -14,7 +14,7 @@
                 <a href="./logout.php">
                     <button class="effect_btn" type="button"><span class="effect_btn_span"></span>LOGOUT</button>
                 </a>
-                <a href="./signin.php">
+                <a href="./login.php">
                         <button class="effect_btn" type="button"><span class="effect_btn_span"></span>LOGIN</button>
                 </a>
                 </div>

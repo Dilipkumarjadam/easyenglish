@@ -33,9 +33,9 @@
 		<form action="" method="post" class="form">
 		<div class="wrapper_h1">
 		<h1>COMMENTS</h1>
-			<input type="text" class="name" name="y_name" placeholder="Name">
+			<input type="text" class="name" name="y_name" placeholder="Name"  required>
 			<br>
-			<textarea name="y_message" cols="30" rows="10" class="message" placeholder="Message"></textarea>
+			<textarea name="y_message" cols="30" rows="10" class="message" placeholder="Message" required></textarea>
 			<br>
 			<button type="submit" class="btn" name="post_comment">Post Comment</button>
 		</form>

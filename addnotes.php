@@ -13,6 +13,9 @@
 <form method="POST" action="addnotes.php" enctype="multipart/form-data">
     <input type="file" name="file">
     <input type="submit" value="ADD">
+    <button>
+        <a href="./admin/adminhome.php">HOME</a>
+    </button> 
 </form>
 <div class="add_notes_name">
         <h1>SHOW NOTES</h1>

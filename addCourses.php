@@ -51,7 +51,10 @@ if (isset($_POST["video"])) {
             </div>
             <div class="input-field">
                 <input  type="submit" class="submit" value="ADD" >
-            </div>  
+            </div>
+            <div class="right">
+                <p>Visit home by clicking  <a href="./admin/adminhome.php"> HOME</a></p>
+            </div> 
             <?php if (isset($error)) { echo "<p class='error'>".$error."</p>"; } ?>
             <div class="input-field" id="err">
                 

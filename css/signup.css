@@ -70,3 +70,13 @@ label a{
     color:#fff;
     text-decoration: none;
 }
+.right{
+    text-align: center;
+}
+.right p{
+   color: white;
+}
+.right a{
+   color: rgb(12, 214, 245);
+   text-decoration: none;
+}

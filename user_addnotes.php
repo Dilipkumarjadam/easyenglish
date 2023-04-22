@@ -13,6 +13,9 @@
 <form method="POST" action="user_addnotes.php" enctype="multipart/form-data">
     <input type="file" name="file">
     <input type="submit" value="SEND">
+    <button>
+        <a href="index.php">HOME</a>
+    </button>
 </form>
 
 </body>
