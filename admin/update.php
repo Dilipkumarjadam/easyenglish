@@ -16,18 +16,21 @@ require("../db.php");
         if(($_REQUEST['id'] == "") || ($_REQUEST['level']== "") || ($_REQUEST['title']== "") || ($_REQUEST['video']== "") || ($_REQUEST['description']== "")){
             $msg = '<div>Please Fill all Fields</div>';
         } else{
-            $rid = $_REQUEST['id'];
-            $rlevel = $_REQUEST['level'];
-            $rtitle = $_REQUEST['title'];
-            $rvideo = $_REQUEST['video'];
+            $rid = $_POST['id'];
+            $rlevel = $_POST['level'];
+            $rtitle = $_POST['title'];
+            $rvideo = $_POST['video'];
             $rdescription = $_REQUEST['description'];
-            $sql = "UPDATE course SET id = '$rid',rlevel = '$level',rtitle = '$title',rvideo = '$video',rdescription = '$description'";
+            // $sql = "UPDATE course SET id = '$rid',rlevel = '$level',rtitle = '$title',rvideo = '$video',rdescription = '$description'";
+            $sql = "UPDATE course SET level = '$rlevel', title = '$rtitle', video = '$rvideo', description = '$rdescription' WHERE id = '$rid'";
+
             if($conn->query($sql) == TRUE){
                 $msg = '<div>Updated Successfully</div>';
             } else {
                 $msg = '<div>Unable To Update</div>';
             }
         }
+        echo mysqli_error($conn);
     }
     ?>
     <form action="" method="POST">
