@@ -23,8 +23,11 @@ if(isset($_POST["id"])){
 </head>
 <body>
     <form method="POST" action="#">
-        <input name="id" placeholder="Enter course ID" />
-        <button class="glyphicon glyphicon-trash" aria-hidden="true">DELETE</button>
+        <input name="id" class="form-control" placeholder="Enter course ID" />
+        <button class="btn-delete" aria-hidden="true">DELETE</button>
+		<a href="EE/admin/adminhome.php">
+                    <button class="btn-home" type="button">HOME</button>
+                </a>
     </form>
     <?php if(isset($message)) {echo $message;} ?>
 </body>
@@ -65,7 +68,7 @@ if(isset($_POST["id"])){
 				echo '<td>'.$row["description"].'</td>';
 				echo '<td>';
 				echo '<form action="update.php" method="POST">';
-				echo '<input type="hidden" name="id" value='.$row["id"].'><button type="submit" class="" name="edit" value="Edit">EDIT<button>';
+				echo '<input type="hidden" name="id" value='.$row["id"].'><button type="submit" class="btn-edit" name="edit" value="Edit">EDIT<button>';
 				echo '</form>';
 				echo '</td>';
 				echo '</tr>';
