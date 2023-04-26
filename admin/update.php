@@ -5,7 +5,7 @@ require("../db.php");
 
 <link rel="stylesheet" href="../css/commentstyle.css">
 <div class="">
-    <h1>UPDATE COURSE</h1>
+    <h5>UPDATE COURSE</h5>
     <?php  
       if(isset($_REQUEST['edit'])){
         $sql = "SELECT  * FROM course WHERE id = {$_REQUEST['id']}";

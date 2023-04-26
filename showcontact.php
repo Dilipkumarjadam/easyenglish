@@ -6,7 +6,10 @@
 <html lang="en">
 <link rel="stylesheet" href="css/commentstyle.css">
 <div class="contact">
-
+<h5>CONTACT US</h5>
+<a href="./admin/adminhome.php">
+                    <button class="btn-close" type="button">HOME</button>
+                </a>
 		<?php
 
 			$sql = "SELECT * FROM contactus";
@@ -35,6 +38,7 @@
 } else {
   echo "0 Result";
 }
+
 ?>
 </div>
 	

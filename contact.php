@@ -69,7 +69,7 @@
               <input name="email" type="email" class="app-form-control" placeholder="EMAIL" id="email" required>
             </div>
             <div class="app-form-group">
-              <input name="y_number" type="number" class="app-form-control" placeholder="CONTACT NO" required>
+              <input name="y_number" type="Tel" class="app-form-control" placeholder="CONTACT NO" pattern="[789][0-9]{9}" required>
             </div>
             <div class="app-form-group message">
             <textarea name="y_message" cols="20" rows="5" class="app-form-control" placeholder="Message"></textarea>

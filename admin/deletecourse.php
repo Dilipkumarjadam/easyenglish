@@ -22,10 +22,11 @@ if(isset($_POST["id"])){
     <title>Document</title>
 </head>
 <body>
+<h5>DELETE COURSE</h5>
     <form method="POST" action="#">
         <input name="id" class="form-control" placeholder="Enter course ID" />
         <button class="btn-delete" aria-hidden="true">DELETE</button>
-		<a href="EE/admin/adminhome.php">
+		<a href="./adminhome.php">
                     <button class="btn-home" type="button">HOME</button>
                 </a>
     </form>

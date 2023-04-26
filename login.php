@@ -50,7 +50,7 @@ if (isset($_POST["email"])) {
                 <input name="email" type="email" class="input" placeholder="Email" required>
             </div>
             <div class="input-field">
-                <input name="pass" type="password" class="input" placeholder="password" required>
+                <input name="pass" type="password" class="input" placeholder="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
             </div>
             <div class="input-field">
                 <input type="submit" class="submit" value="Login">
